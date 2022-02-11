@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding: 20px;
+}
+
+.lista{
+    display: inline-block;
+    list-style: none;
+}
+
+
+.float-left{
+    float: left;
+}
+
+
+.float-right{
+    float: right;
+}
+
+.inline{
+    display: inline-block;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-bottom: 20px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding-left: 30px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    
+}
+
+nav ul li :hover{
+    color: #0061FF;
+}
+
+
+.header-float{
+    float: right;
+    padding-top: 27px;
+}
+
+.button1{
+    background-color: #0061FF;
+    color: white;
+    border-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 9px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-right: 30px;
+    margin-top: -9px;
+    border: 0px;
+    margin-left: 20px;
+    font-size: 16px;
+    
+}
+
+button1:hover{
+    color: #0061FF;
+}
+
+
+.section1{
+    background-color: #a5cbe9;
+    height: 800px;
+
+}
+
+.div-sec-1{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titolo1{
+    font-size: 90px;
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding-top: 70px;
+}
+
+.p-1{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.immagine1{
+    height: 600px;
+    width: 1000px;
+    padding-top: 40px;
+}
+
+.button2{
+    background-color: #0061FF;
+    color: white;
+    border-color: #0061FF;
+    padding: 9px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+
+.fa-solid{
+    padding-top: 30px;
+}
