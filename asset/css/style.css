@@ -114,4 +114,141 @@ button1:hover{
 
 .fa-solid{
     padding-top: 30px;
+    display: inline-block;
+}
+
+.section2{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 200px;
+    height: 1000px;
+}
+
+.h1{
+    font-size: 40px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+}
+
+.colonne{
+    column-count: 3;
+}
+
+.box-1 {
+    width: 33%;
+    width: calc(100% / 3 -60);
+    margin-top: 20px;
+    border: solid rgb(179, 179, 179) 1px;
+    background-color: #ffffff;
+    padding: 6px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.box-2 {
+    width: 33%;
+    width: calc(100% / 3 -60);
+    margin-top: 20px;
+    border: solid rgb(179, 179, 179) 1px;
+    background-color: #ffffff;
+    padding: 6px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.box-3 {
+    width: 33%;
+    width: calc(100% / 3 -60);
+    margin-top: 20px;
+    border: solid rgb(179, 179, 179) 1px;
+    background-color: #ffffff;
+    padding: 6px;
+    text-align: center;
+    display: inline-block;
+} 
+
+.box-1-under {
+    width: 33%;
+    width: calc(100% / 3 -60);
+    margin-top: 20px;
+    border: solid rgb(179, 179, 179) 1px;
+    background-color: #ffffff;
+    padding: 6px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 30px;
+    border-top: 0px;
+    
+}
+
+.p-box{
+    padding-top: 20px;
+}
+
+.p-box-color{
+    color: rgb(128, 128, 128);
+}
+
+.display{
+    display: inline-block;
+}
+
+.button3{
+    background-color: #0061FF;
+    color: white;
+    border-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 9px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-right: 30px;
+    border: 0px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-left: 50px;
+    
+}
+
+.hr{
+    width: 50px;
+    color: rgb(179, 179, 179);
+}
+
+.lista-box{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.box-2-under {
+    width: 33%;
+    width: calc(100% / 3 -60);
+    margin-top: 20px;
+    border: solid rgb(179, 179, 179) 1px;
+    background-color: #ffffff;
+    padding: 6px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 30px;
+    border-top: 0px;
+    
+}
+
+.box-3-under {
+    width: 33%;
+    width: calc(100% / 3 -60);
+    margin-top: 20px;
+    border: solid rgb(179, 179, 179) 1px;
+    background-color: #ffffff;
+    padding: 6px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 30px;
+    border-top: 0px;
+    
 }
