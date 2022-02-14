@@ -27,6 +27,12 @@
     display: inline-block;
 }
 
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 nav ul li{
     list-style: none;
     float: left;
@@ -124,6 +130,28 @@ button1:hover{
     height: 1000px;
 }
 
+
+.cerchio{
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #adadad;
+    background-color: white;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+.cerchio:hover{
+    border: 5px solid #0061FF;
+}
+
+.p{
+    display: inline-block;
+}
+
 .h1{
     font-size: 40px;
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -136,7 +164,7 @@ button1:hover{
 
 .box-1 {
     width: 33%;
-    width: calc(100% / 3 -60);
+    width: calc((100% / 3) -40px);
     margin-top: 20px;
     border: solid rgb(179, 179, 179) 1px;
     background-color: #ffffff;
@@ -144,10 +172,11 @@ button1:hover{
     text-align: center;
     display: inline-block;
     
+    
 }
 .box-2 {
     width: 33%;
-    width: calc(100% / 3 -60);
+    width: calc((100% / 3) -40px);
     margin-top: 20px;
     border: solid rgb(179, 179, 179) 1px;
     background-color: #ffffff;
@@ -160,7 +189,7 @@ button1:hover{
 
 .box-3 {
     width: 33%;
-    width: calc(100% / 3 -60);
+    width: calc ((100% / 3) -40px); /*(100% / 3 -60);*/
     margin-top: 20px;
     border: solid rgb(179, 179, 179) 1px;
     background-color: #ffffff;
@@ -181,6 +210,8 @@ button1:hover{
     margin-top: 0px;
     padding-left: 30px;
     border-top: 0px;
+    max-height: 1100px;
+    height: 1000px;
     
 }
 
@@ -235,6 +266,8 @@ button1:hover{
     margin-top: 0px;
     padding-left: 30px;
     border-top: 0px;
+    max-height: 1100px;
+    height: 1000px;
     
 }
 
@@ -250,5 +283,246 @@ button1:hover{
     margin-top: 0px;
     padding-left: 30px;
     border-top: 0px;
+    max-height: 1100px;
+    height: 1000px;
     
+}
+
+.section3{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+
+.section4{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.team{
+    width: calc((100% / 3) -40px);
+    margin-top: -100px;
+    border: solid rgb(179, 179, 179) 1px;
+    background-color: #ffffff;
+    padding: 6px;
+    text-align: center;
+        
+}
+
+.box-team-under {
+    width: 100%;
+    margin-top: 20px;
+    border: solid rgb(179, 179, 179) 1px;
+    background-color: #ffffff;
+    padding: 6px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 30px;
+    border-top: 0px;
+    
+}
+
+
+.button4{
+    background-color: #0061FF;
+    color: white;
+    border-color: #0061FF;
+    padding: 9px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    margin-left: 720px;
+}
+
+.partner{
+    height: 500px;
+}
+
+.testo-grande{
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif ;
+    font-size: 26px;
+    margin-right: 40;
+}
+
+.testo-piccolo{
+    margin-top: 70px;
+    margin-left: 660px;
+    font-family: "Whitney, Helvetica Neue, Helvetica, Arial, sans-serif";
+    font-size: 20px;
+}
+
+.button-partner{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    padding: 9px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 165px;
+    
+}
+
+.button-partner:hover{
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+
+.DXpaper{
+    color: #000000;
+}
+
+
+.DXpaper:hover{
+    text-decoration: none;
+}
+
+.titolo-b{
+    font-size: 40px;
+}
+
+.dimensione{
+    height: 310px;
+    padding-top: 50px;
+    
+}
+
+.padding{
+    padding-left: 90px;
+    padding-right: 82px;
+}
+
+.column{
+    column-count: 3;
+    column-gap: 80px;
+}
+
+.p-size{
+    font-family: "Whitney, Helvetica Neue, Helvetica, Arial, sans-serif";
+    font-size: 20px;
+}
+
+.quadrato-verde{
+    background-color: rgb(145, 206, 145);
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    border: 10px solid 
+    rgb(199, 247, 199);
+}
+
+
+.quadrato-bordo{
+    background-color: rgb(65, 28, 28);
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.quadrato-blu{
+    background-color: rgb(0, 132, 214);
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-top: -3px;
+}
+
+.quadrato-rosso{
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-top: -3px;
+    margin-left: -4px;
+}
+
+.designit{
+    height: 60px;
+    margin-bottom: 370px;
+    margin-left: -70px;
+}
+
+.bg-color{
+    background-color: rgb(243, 243, 243);
+}
+
+
+.hr1{
+    display: inline-block;
+    width: 70px;
+    color: lightgray;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.overflow {
+    height: 40px; 
+    overflow-y: hidden;
+}
+
+.top{
+    margin-top: -253px;
+}
+
+.quadrato-rosso2{
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    
+}
+
+.quadrato-celeste{
+    background-color: lightblue;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-left: -4px;
+    margin-top: 1px;
+    
+}
+
+.quadrato-blu2{
+    background-color: rgb(29, 29, 158);
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-top: -4px;
+    
+}
+
+.quadrato-giallo{
+    background-color: rgb(233, 233, 31);
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-left: -4px;
+    margin-top: -4px;
+    
+}
+
+
+.immaginebox1{
+    width: 140px;
+    margin-top: 90px;
+    margin-left: 45px;
+}
+
+.immaginebox2{
+    width: 140px;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.immaginebox3{
+    width: 140px;
+    margin-top: 90px;
+    margin-left: 60px;
 }
