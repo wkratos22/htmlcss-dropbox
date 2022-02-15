@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .logo{
     padding: 20px;
 }
@@ -32,6 +36,26 @@
     clear: both;
     display: table;
 }
+
+
+.margin{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+
+
+.back-color{
+    background-color:#a5cbe9 ;
+}
+
 
 nav ul li{
     list-style: none;
@@ -74,8 +98,9 @@ nav ul li :hover{
     
 }
 
-button1:hover{
-    color: #0061FF;
+.button1:hover{
+    background-color: #438bff;
+    cursor: pointer;
 }
 
 
@@ -116,6 +141,13 @@ button1:hover{
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 30px;
+    border: 1px;
+}
+
+.button2:hover{
+    background-color: #438bff;
+    cursor: pointer;
+    border-color: #438bff;
 }
 
 .fa-solid{
@@ -153,7 +185,7 @@ button1:hover{
 }
 
 .h1{
-    font-size: 40px;
+    font-size: 50px;
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     
 }
@@ -244,13 +276,17 @@ button1:hover{
     
 }
 
+.button3:hover{
+    background-color: #438bff;
+    cursor: pointer;
+}
+
 .hr{
     width: 50px;
     color: rgb(179, 179, 179);
 }
 
 .lista-box{
-    list-style: none;
     padding-top: 10px;
 }
 
@@ -339,6 +375,11 @@ button1:hover{
     margin-left: 720px;
 }
 
+.button4:hover{
+    background-color: #438bff;
+    cursor: pointer;
+}
+
 .partner{
     height: 500px;
 }
@@ -410,37 +451,54 @@ button1:hover{
 
 .quadrato-verde{
     background-color: rgb(145, 206, 145);
-    height: 250px;
-    width: 250px;
+    height: 50%;
+    width: 50%;
     display: inline-block;
     border: 10px solid 
     rgb(199, 247, 199);
+    background-image: url(./../img/designit.svg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: 48%;
+    
 }
 
 
 .quadrato-bordo{
     background-color: rgb(65, 28, 28);
-    height: 250px;
-    width: 250px;
+    height: 50%;
+    width: 50%;
     display: inline-block;
     margin-left: -4px;
+    background-image: url(./../img/arizona_state_university.svg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: 48%;
 }
 
 .quadrato-blu{
     background-color: rgb(0, 132, 214);
-    height: 250px;
-    width: 250px;
+    height: 50%;
+    width: 50%;
     display: inline-block;
     margin-top: -3px;
+    background-image: url(./../img/university_of_florida.svg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: 48%;
 }
 
 .quadrato-rosso{
     background-color: red;
-    height: 250px;
-    width: 250px;
+    height: 50%;
+    width: 50%;
     display: inline-block;
     margin-top: -3px;
     margin-left: -4px;
+    background-image: url(./../img/topps.svg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: 48%;
 }
 
 .designit{
@@ -451,6 +509,8 @@ button1:hover{
 
 .bg-color{
     background-color: rgb(243, 243, 243);
+    width: 100% ;
+    height: 600px;
 }
 
 
@@ -464,7 +524,7 @@ button1:hover{
 
 .overflow {
     height: 40px; 
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .top{
@@ -473,46 +533,60 @@ button1:hover{
 
 .quadrato-rosso2{
     background-color: red;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 285px;
     display: inline-block;
+    background-image: url(./../img/world_bicycle_relief.svg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: 48%;
     
 }
 
 .quadrato-celeste{
     background-color: lightblue;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 285px;
     display: inline-block;
     margin-left: -4px;
     margin-top: 1px;
+    background-image: url(./../img/hearst_corp.svg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: 48%;
     
 }
 
 .quadrato-blu2{
     background-color: rgb(29, 29, 158);
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 285px;
     display: inline-block;
     margin-top: -4px;
+    background-image: url(./../img/lonely_planet.svg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: 48%;
     
 }
 
 .quadrato-giallo{
-    background-color: rgb(233, 233, 31);
-    height: 250px;
-    width: 250px;
+    background-color: rgb(255, 230, 0);
+    height: 300px;
+    width: 285px;
     display: inline-block;
     margin-left: -4px;
     margin-top: -4px;
+    background-image: url(./../img/clear_channel.svg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: 48%;
     
 }
 
 
 .immaginebox1{
-    width: 140px;
-    margin-top: 90px;
-    margin-left: 45px;
+    width: 50%;
 }
 
 .immaginebox2{
@@ -526,3 +600,70 @@ button1:hover{
     margin-top: 90px;
     margin-left: 60px;
 }
+
+.fa-check{
+    margin-top: -80px;
+    color: #0061FF;
+}
+
+.fa-li{
+    margin-left: -20px;
+}
+
+
+.quadrati-sx{
+    width: 30%;
+    height: 100%;
+}
+
+.quadrati-dx{
+    width: 30%;
+    height: 100%;
+}
+
+
+
+.paragrafo{
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.h-stile{
+    color: rgb(116, 9, 116);
+    padding: 125px;
+    padding-left: 300px;
+}
+
+.section-style{
+    background-color: hsl(217, 100%, 87%);
+    margin-top: -54px;
+}
+
+.last-button{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid hsl(217, 100%, 87%);
+    padding: 9px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 150px;
+}
+
+.last-button:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+    color: #0061FF;
+}
+
+.last-hr{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: #eeeeee;
+}
+
+.arrow-margin{
+    margin-left: 500px;
+}
+
