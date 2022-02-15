@@ -36,7 +36,7 @@ html{
     clear: both;
     display: table;
 }
-
+ 
 
 .margin{
     width: 80%;
@@ -197,7 +197,7 @@ nav ul li :hover{
 .box-1 {
     width: 33%;
     width: calc((100% / 3) -40px);
-    margin-top: 20px;
+    margin-top: -20px;
     border: solid rgb(179, 179, 179) 1px;
     background-color: #ffffff;
     padding: 6px;
@@ -667,3 +667,66 @@ nav ul li :hover{
     margin-left: 500px;
 }
 
+
+
+.footer{
+    background-color: rgb(15, 15, 15);
+    height: 500px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.div-footer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.column2{
+    column-count: 5;
+    column-gap: 200px;
+}
+
+.p-footer{
+    font-family: "Whitney, Helvetica Neue, Helvetica, Arial, sans-serif";
+    font-size: 20px;
+    color: white;
+    margin-top: 100px;
+}
+
+.column3{
+    column-count: 5;
+    column-gap: 200px;
+}
+
+.li-last-list{
+    color: white;
+    list-style: none;
+    font-family: "Whitney, Helvetica Neue, Helvetica, Arial, sans-serif";
+    
+}
+
+.li-last-list:hover{
+    cursor: pointer;
+}
+
+.hr-footer{
+    width: 140px;
+    margin-top: 60px;
+}
+
+
+.fa-earth-americas{
+    color: rgb(201, 201, 201);
+}
+
+.color-wh{
+    color: rgb(201, 201, 201);
+}
+
+.fa-sort-up{
+    color: rgb(201, 201, 201);
+}
+
+.fa-sort-up:hover{
+    cursor: pointer;
+}
